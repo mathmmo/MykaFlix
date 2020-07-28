@@ -14,3 +14,7 @@ export const FooterBase = styled.footer`
     margin-bottom: 50px;
   }
 `;
+
+export const ImgLogo = styled.img`
+  width: 50%;
+`;

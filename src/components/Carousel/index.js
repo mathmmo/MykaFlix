@@ -13,7 +13,7 @@ function VideoCardGroup({
   return (
     <VideoCardGroupContainer>
       {categoryTitle && (
-        <>
+        <ul>
           <Title style={{ backgroundColor: categoryColor || 'red' }}>
             {categoryTitle}
           </Title>
@@ -22,7 +22,7 @@ function VideoCardGroup({
               {categoryExtraLink.text}  
             </ExtraLink>
           }
-        </>
+        </ul>
       )}
       <VideoCardList>
         {videos.map((video, index) => {
