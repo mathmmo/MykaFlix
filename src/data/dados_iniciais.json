@@ -1,7 +1,7 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
+      "titulo": "Meme Favorito",
       "link": "https://www.alura.com.br/formacao-front-end",
       "cor": "#6BD1FF",
       "link_extra": {
@@ -10,36 +10,40 @@
       },
       "videos": [
         {
-          "titulo": "O que faz da Mykaele Beatriz a famosa 'Myka'?",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "Conheça melhor essa garota, entenda o que ela acha engraçado!",
+          "url": "https://www.youtube.com/watch?v=XsYVERo8FtQ"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "DESVENDANDO O MEME: CABELEIREIRA LEILA | Diva Depressão",
+          "url": "https://www.youtube.com/watch?v=Yz5ofZEE6lc"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "CABELEIREIRA LEILA MEME - EU ENCONTREI A 'CABELEILEILA' ORIGINAL!",
+          "url": "https://www.youtube.com/watch?v=ZrqR7dOmkOs"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "MEME DA CABELEIREIRA LEILA! ENCONTREI QUEM FEZ O MEME! {P E N}",
+          "url": "https://www.youtube.com/watch?v=SS3X7mX4xe4"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "Cinema dos MEMES da CABELEIREIRA LEILA kkkkkkkkkk",
+          "url": "https://www.youtube.com/watch?v=nbvCFsIWaV0"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "titulo": "CABELEIREIRA LEILA *novelinha*",
+          "url": "https://www.youtube.com/watch?v=DAWASOEDtwg"
         },
         {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+          "titulo": "Cabeleireira Leila (FUNK REMIX) [prod. Luanzera]",
+          "url": "https://www.youtube.com/watch?v=ojtnbiVpOkk"
         },
         {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "CABELEIREIRA LEILA (VERSÃO EM INGLÊS)",
+          "url": "https://www.youtube.com/watch?v=AiCXdsmRxwI"
+        },
+        {
+          "titulo": "TRAP DA CABELEIREIRA LEILA - LILO (CABELELEILA LEILA OFICIAL)",
+          "url": "https://www.youtube.com/watch?v=p09Sha7TP3A"
         }        
       ]
     },

@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import MykaPhoto from '../../assets/img/myka_dedo_meio2.jpg'
 
 export const ContentAreaContainer = styled.section`
   margin-left: 5%;
@@ -69,7 +70,8 @@ export const BannerMainContainer = styled.section`
   height: 80vh;
   position: relative;
   color: #fff;
-  background-image: ${({ backgroundImage }) => `url(${backgroundImage})`}; 
+  /* background-image: ${({ backgroundImage }) => `s(${backgroundImage})`};  */
+  background-image: url(${MykaPhoto});
   background-size: cover;
   background-position: center;
   @media (max-width: 800px) {
@@ -100,8 +102,9 @@ export const BannerMainContainer = styled.section`
   }
 `;
 
-export const WatchButton = styled.button`
+export const WatchButton = styled.a`
   font-family: 'Roboto', sans-serif;
+  max-width: 30%;
   box-sizing: border-box;
   cursor: pointer;
   padding: 16px 24px;
