@@ -1,14 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Logo from '../../assets/img/Logo.png'
 import './Menu.css'
 import Button from '../Button';
 
 const Menu = () => (
     <nav className="Menu">
-        <a href="/">
+        <Link to="/">
             <img src={Logo} alt="Mykaflix" className="Logo"/>
-        </a>
-        <Button as="a" className="ButtonLink" href="/" >Pesquisar</Button>
+        </Link>
+        <Button as={Link} className="ButtonLink" to="/cadastro/video" >Cadastrar</Button>
     </nav>
 );
 

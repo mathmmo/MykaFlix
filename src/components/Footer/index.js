@@ -8,12 +8,8 @@ function Footer() {
       <a href="https://www.github.com/mathmmo" target="_blank">
         <ImgLogo src={Logo} alt="Matheus Oliveira"/>
       </a>
-      <p>
-        Orgulhosamente criado durante a Quarentena
-        {' '}
-        <a href="https://www.github.com./mathmmo" target="_blank">
-          Matheus Martins de Oliveira
-        </a>
+      <p style={{margin: 0}}>
+        Made in Quarentena
       </p>
     </FooterBase>
   );
