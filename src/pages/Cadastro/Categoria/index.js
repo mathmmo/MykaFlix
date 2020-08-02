@@ -28,7 +28,9 @@ const CadastroCategoria = () => {
   );
 
   useEffect(() => {
-    const URL_API = 'http://localhost:8080/categorias';
+    const URL_API = window.location.hostname.includes('localhost')
+    ? 'http://localhost:8080/categorias'
+    : 'https://myka-flix.herokuapp.com/categorias';
     fetch(URL_API).then(async (serverResponse) => {
       const objResponse = await serverResponse.json();
       console.log(objResponse);
