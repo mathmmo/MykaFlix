@@ -1,0 +1,16 @@
+{
+    "categorias": [
+        {
+            "id": "1",
+            "name": "Comédia",
+            "description": "Uma categoria",
+            "cor": "#CBD1FF"
+        },
+        {
+            "id": "2",
+            "name": "Ação",
+            "description": "Uma categoria",
+            "cor": "#CBD1FF"
+        }
+    ]
+}

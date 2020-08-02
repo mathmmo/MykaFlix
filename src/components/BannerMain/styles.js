@@ -5,7 +5,7 @@ export const ContentAreaContainer = styled.section`
   margin-left: 5%;
   margin-right: 5%;
   height: 100%;
-  display: flex;
+  display: flex; 
   align-items: center;
   justify-content: center;
   position: relative;
@@ -70,7 +70,6 @@ export const BannerMainContainer = styled.section`
   height: 80vh;
   position: relative;
   color: #fff;
-  /* background-image: ${({ backgroundImage }) => `s(${backgroundImage})`};  */
   background-image: url(${MykaPhoto});
   background-size: cover;
   background-position: center;

@@ -13,7 +13,7 @@ function Home() {
       <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo} 
         url={dadosIniciais.categorias[0].videos[0].url} 
-        videoDescription={"Descubra aqui o quão debochada é a rainha do deboche!"}
+        videoDescription={"Faça um tour pela sua cabecinha oca!"}
       />
 
       <Carousel 

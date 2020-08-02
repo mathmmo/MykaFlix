@@ -17,4 +17,7 @@ export const FooterBase = styled.footer`
 
 export const ImgLogo = styled.img`
   width: 25%;
+  @media (max-width: 800px) {
+    width: 50%;
+  }
 `;
