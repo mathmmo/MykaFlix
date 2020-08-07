@@ -9,7 +9,7 @@ const Menu = () => (
         <Link to="/">
             <img src={Logo} alt="Mykaflix" className="Logo"/>
         </Link>
-        <Button as={Link} className="ButtonLink" to="/cadastro/video" >Novo Video</Button>
+        {/* <Button as={Link} className="ButtonLink" to="/cadastro/video" >Novo Video</Button> */}
     </nav>
 );
 

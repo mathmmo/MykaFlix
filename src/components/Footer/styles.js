@@ -11,13 +11,13 @@ export const FooterBase = styled.footer`
   color: var(--white);
   text-align: center;
   @media (max-width: 800px) {
-    margin-bottom: 50px;
+    margin-bottom: 8  px;
   }
 `;
 
 export const ImgLogo = styled.img`
-  width: 25%;
+  width: 30%;
   @media (max-width: 800px) {
-    width: 50%;
+    width: 90%;
   }
 `;

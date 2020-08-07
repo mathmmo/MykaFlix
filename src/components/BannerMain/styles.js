@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import MykaPhoto from '../../assets/img/myka_dedo_meio2.jpg'
+import MykaPhoto from '../../assets/img/myka_praia.jpg'
 
 export const ContentAreaContainer = styled.section`
   margin-left: 5%;
@@ -47,9 +47,9 @@ ContentAreaContainer.Category = styled.h1`
 `;
 
 ContentAreaContainer.Description = styled.p`
-  @media (max-width: 800px) {
+  /* @media (max-width: 800px) {
     display: none;
-  }
+  } */
 `;
 
 ContentAreaContainer.Title = styled.h2`

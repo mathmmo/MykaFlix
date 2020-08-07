@@ -1,7 +1,6 @@
 import React from 'react';
 import VideoIframeResponsive from './components/VideoIframeResponsive';
 import { BannerMainContainer, ContentAreaContainer, WatchButton } from './styles';
-import MykaPhoto from '../../assets/img/myka_dedo_meio2.jpg';
 
 function getYouTubeId(youtubeURL) {
   return youtubeURL
@@ -12,9 +11,9 @@ function getYouTubeId(youtubeURL) {
 }
 
 export default function BannerMain({
-  videoTitle,
   videoDescription,
   url,
+  thanks
 }) {
   const youTubeID = getYouTubeId(url);
 
@@ -23,11 +22,17 @@ export default function BannerMain({
       <ContentAreaContainer>
         <ContentAreaContainer.Item>
           <ContentAreaContainer.Title>
-            {videoTitle}
+            <strong>
+              FELIZ ANIVERSÁRIO AMOR, VOCÊ MERECE O MUNDO!
+            </strong>
           </ContentAreaContainer.Title>
 
           <ContentAreaContainer.Description>
             {videoDescription}
+          </ContentAreaContainer.Description>
+          <ContentAreaContainer.Description>
+            {thanks}<br></br>
+            <strong>MUITO OBRIGADO GALERA, VOCÊS SÃO DEMAIS!</strong>
           </ContentAreaContainer.Description>
         </ContentAreaContainer.Item>
 

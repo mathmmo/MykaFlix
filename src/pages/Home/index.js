@@ -4,41 +4,64 @@ import dadosIniciais from '../../data/dados_iniciais.json';
 import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
 import Footer from '../../components/Footer'; 
+import GalleryPhotos from '../../components/Gallery';
+import styled from 'styled-components';
 
 function Home() {
+
+  const Div = styled.div`
+    color: var(--white);
+    border-bottom: 1px solid #C0C0C0;
+    margin: 32px 32px 0 32px;
+    font-weight: bold;
+  `;
+
+  Div.Span = styled.span`
+    font-size: 28px;
+  `;
+  
   return (
     <div className="App" style={{ background: "#141414"}}>
       <Menu />
 
       <BannerMain
-        videoTitle={dadosIniciais.categorias[0].videos[0].titulo} 
         url={dadosIniciais.categorias[0].videos[0].url} 
-        videoDescription={"Faça um tour pela sua cabecinha oca!"}
+        videoDescription={"Essa é uma pequena homenagem para a Mykaele, por aqui você vai encontrar algumas mensagens e umas fotos que uma galera que a ama muito se organizou e juntou tudo no mesmo lugar!"}
+        thanks={"Agradecimento especial para todos vocês que no meio de tanta correria da vida, tiraram um tempinho pra homenagear essa pessoinha ESPECIAL!"}
       />
 
-      <Carousel 
+      <Carousel
         ignoreFirstVideo
         category={dadosIniciais.categorias[0]}
       />
 
-      <Carousel 
-        ignoreFirstVideo
-        category={dadosIniciais.categorias[1]}
+      <Div>
+        <Div.Span>Galeria de Fotos</Div.Span>
+      </Div>
+      
+      <GalleryPhotos
+        legend='Myka Criança'
+        album='kid'
       />
 
-      <Carousel 
-        ignoreFirstVideo
-        category={dadosIniciais.categorias[2]}
+      <GalleryPhotos
+        legend='Myka Adolescente'
+        album='teen'
       />
 
-      <Carousel 
-        ignoreFirstVideo
-        category={dadosIniciais.categorias[3]}
+      <GalleryPhotos
+        legend='Myka & Amigos'
+        album='friends'
       />
 
-      <Carousel 
-        ignoreFirstVideo
-        category={dadosIniciais.categorias[4]}
+      <GalleryPhotos
+        legend='Myka & Família'
+        album='family'
+      />
+      
+      <GalleryPhotos
+        legend='Myka Tudo Misturado'
+        album='me'
       />
 
       <Footer />

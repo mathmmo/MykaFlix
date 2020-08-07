@@ -29,3 +29,26 @@ a {
   display: flex;
   flex-direction: column;
 }
+
+.slick-next {
+  height: 100% !important;
+  right: 0 !important;
+  width: 50px !important;
+  transition: background .5s;
+}
+
+.slick-next:hover {
+  background: rgba(211, 211, 211, .3);
+}
+
+.slick-prev {
+  height: 100% !important;
+  left: 0 !important;
+  width: 50px !important;
+  transition: background .5s;
+}
+
+.slick-prev:hover {
+  background: rgba(211, 211, 211, .3);
+}
+

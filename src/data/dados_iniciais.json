@@ -1,187 +1,77 @@
 {
   "categorias": [
     {
-      "titulo": "Meme Favorito",
+      "titulo": "Parabéns!",
       "link": "https://www.alura.com.br/formacao-front-end",
-      "cor": "#6BD1FF",
+      "cor": "var(--primary)",
       "link_extra": {
         "text": "Formação de Front End na Alura",
         "url": "https://www.alura.com.br/cursos-online-front-end"
       },
       "videos": [
         {
-          "titulo": "Saiba tudo sobre a Mykaele, aqui no MYKAFLIX!",
-          "url": "https://www.youtube.com/watch?v=XsYVERo8FtQ"
+          "titulo": "FELIZ ANIVERSÁRIO AMOR, VOCÊ MERECE O MUNDO!",
+          "url": "https://youtu.be/Ctj7WmXcBJ0" 
         },
         {
-          "titulo": "DESVENDANDO O MEME: CABELEIREIRA LEILA | Diva Depressão",
-          "url": "https://www.youtube.com/watch?v=Yz5ofZEE6lc"
+          "titulo": "@Eva e Gil",
+          "url": "https://youtu.be/g857PCnVgtg"
         },
         {
-          "titulo": "CABELEIREIRA LEILA MEME - EU ENCONTREI A 'CABELEILEILA' ORIGINAL!",
-          "url": "https://www.youtube.com/watch?v=ZrqR7dOmkOs"
+          "titulo": "@Jheniker e Phillip",
+          "url": "https://youtu.be/Jm-xOybE7r4"
         },
         {
-          "titulo": "MEME DA CABELEIREIRA LEILA! ENCONTREI QUEM FEZ O MEME! {P E N}",
-          "url": "https://www.youtube.com/watch?v=SS3X7mX4xe4"
+          "titulo": "@Elaine",
+          "url": "https://youtu.be/LQUlhmxafSg"
         },
         {
-          "titulo": "Cinema dos MEMES da CABELEIREIRA LEILA kkkkkkkkkk",
-          "url": "https://www.youtube.com/watch?v=nbvCFsIWaV0"
+          "titulo": "@Darlan Oliveira",
+          "url": "https://youtu.be/a-aJlYdbVR4"
         },
         {
-          "titulo": "CABELEIREIRA LEILA *novelinha*",
-          "url": "https://www.youtube.com/watch?v=DAWASOEDtwg"
+          "titulo": "@Celyne Almeida",
+          "url": "https://youtu.be/gHT81IAKMrc"
         },
         {
-          "titulo": "Cabeleireira Leila (FUNK REMIX) [prod. Luanzera]",
-          "url": "https://www.youtube.com/watch?v=ojtnbiVpOkk"
+          "titulo": "@Gleicy e Henrique",
+          "url": "https://youtu.be/AZ0bmYIxZIE"
         },
         {
-          "titulo": "CABELEIREIRA LEILA (VERSÃO EM INGLÊS)",
-          "url": "https://www.youtube.com/watch?v=AiCXdsmRxwI"
+          "titulo": "@Leticia Vanessa",
+          "url": "https://youtu.be/EF0kyBzNL5M"
         },
         {
-          "titulo": "TRAP DA CABELEIREIRA LEILA - LILO (CABELELEILA LEILA OFICIAL)",
-          "url": "https://www.youtube.com/watch?v=p09Sha7TP3A"
-        }        
-      ]
-    },
-    {
-      "titulo": "Back End",
-      "cor": "#00C86F",
-      "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
-      },
-      "videos": [
-        {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "@Felipe",
+          "url": "https://youtu.be/TqZGE3Aq8J8"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "@Karol Sousa",
+          "url": "https://youtu.be/A9E_RN77kGQ"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "@Duda",
+          "url": "https://youtu.be/nHCKR9QpFnM"
         },
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
-        }, 
-        {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
-        }
-      ]
-    },
-    {
-      "titulo": "Data Science e Inteligência Artificial",
-      "cor": "#9cd33b",
-      "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
-      },
-      "videos": [
-        {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "@Nicolas e Milena",
+          "url": "https://youtu.be/symPHC2YLRY"
         },
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "titulo": "@Lucas e Ingrid",
+          "url": "https://youtu.be/RmR4WaEUqa4"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "titulo": "@Pablo",
+          "url": "https://youtu.be/h_dvHo39LtA"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
-        }
-      ]
-    },
-    {
-      "titulo": "Filmes",
-      "cor": "orange",
-      "videos": [
+          "titulo": "@Maisa",
+          "url": "https://youtu.be/mVxQf1AB2aw"
+        },        
         {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
-        },
-        {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
-        },
-        {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
-        },
-        {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
-        }
-      ]
-    },
-    {
-      "titulo": "Games",
-      "cor": "red",
-      "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
-      },
-      "videos": [
-        {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
-        },
-        {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
-        },
-        {
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
-        },
-        {
-          "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
-        },
-        {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
-          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
-        }
-      ]
-    },
-    {
-      "titulo": "Aprendendo a aprender tecnologia",
-      "cor": "#6b5be2",
-      "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
-        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
-      },
-      "videos": [
-        {
-          "titulo": "Como estudar melhor?",
-          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
-        },
-        {
-          "titulo": "Faculdade",
-          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
-        },
-        {
-          "titulo": "Frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-        },
-        {
-          "titulo": "A mágica do Aprendizado",
-          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
-        },
-        {
-          "titulo": "Como aprender a programar?",
-          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+          "titulo": "@Caroline",
+          "url": "https://youtu.be/ejQ89y028YQ"
         }
       ]
     }
